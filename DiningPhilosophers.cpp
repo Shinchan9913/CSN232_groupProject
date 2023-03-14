@@ -39,6 +39,13 @@ public:
 			pthread_cond_wait(&cond[n], &mut);
 		}
 		cout << "Philosopher " << (n + 1) << " is eating."<< endl;
+		cout << "Philosophers ";
+		for(int it = 1;it<=N;it++){
+			if(it!=(n+1)){
+				cout << it << " ";
+			}
+		}
+		cout << "are thinking." << endl;
 		pthread_mutex_unlock(&mut);
 	}
 
