@@ -1,7 +1,8 @@
-Problem Statement:
+# Dining philosophers problem
+## Problem Statement:
 Five Philosophers are engaged in two activities: Thinking and Eating. Meals are taken communally on a table with five plates and five forks in a cyclic manner. Constraints and Condition for the problem: Every Philosopher needs two forks to eat. Every Philosopher may pick up the forks on the left or right but only one fork at once. Philosophers only eat when they have two forks. We have to design such a protocol i.e. pre and post-protocol which ensures that a philosopher only eats if he or she has two forks.
 
-Solution:
+## Solution:
 To simulate the problem, here the threads represent a philosopher. As a part of the solution, we have implemented the following functions: 
 take_fork: This function is used by a philosopher to acquire two forks. When both the forks are free, the philosopher starts eating, otherwise, it waits.
 put_fork: This function is used by a philosopher to release the forks it is holding. After releasing the forks, the philosopher changes his state to thinking and signals his neighbors to try to eat. 
