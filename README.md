@@ -1,4 +1,2 @@
-
-   
-   Group Project for Implementation of Classical Synchronization Problems in Operating Systems using POSIX Threads (pthreads)
+# Group Project for Implementation of Classical Synchronization Problems in Operating Systems using POSIX Threads (pthreads)
 
