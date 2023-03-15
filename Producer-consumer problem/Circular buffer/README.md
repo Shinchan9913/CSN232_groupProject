@@ -18,8 +18,8 @@ The consumer function locks the mutex, checks if the buffer is empty, and waits 
 To run the program, compile the code using a C compiler and run the resulting executable file.
 
 ```
-gcc circular_buffer.c -o circular_buffer -pthread
-./circular_buffer
+gcc circular_buffer.c -o circular_buff -pthread
+./circular_buff
 ```
 The program will create 9 producer threads and 9 consumer threads. Each producer thread will insert a random item into the buffer, and each consumer thread will remove an item from the buffer. The program will print out messages indicating when an item is inserted or removed from the buffer.
 
