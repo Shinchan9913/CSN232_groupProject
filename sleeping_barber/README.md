@@ -2,9 +2,9 @@
 
 Problem statement and find that solution. 
 
-##Source: Wikipedia
+Source: Wikipedia
 
-##Problem statement:
+## Problem statement:
 
 The multiple-sleeping barber problem is a classical synchronization problem that 
 models a scenario where multiple barbers work at a barbershop with limited chairs 
