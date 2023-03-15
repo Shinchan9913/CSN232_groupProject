@@ -16,3 +16,11 @@ The wait and signal functions are used to acquire and release semaphores. The wa
 The main function initializes the semaphores and creates the producer and consumer threads. It waits for all threads to complete before destroying the semaphores and exiting the program.
 
 Overall, the code implements a solution to the bounded buffer producer-consumer problem using semaphores and mutex locks to ensure synchronization between the producer and consumer threads.
+
+## Usage
+To run the program, compile the code using a C compiler and run the resulting executable file.
+
+```
+gcc bounded_buff.c -o bounded_buff -pthread
+./bounded_buff.out
+```
