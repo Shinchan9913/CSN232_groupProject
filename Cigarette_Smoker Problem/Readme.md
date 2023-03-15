@@ -26,4 +26,5 @@ The same type of smokers will remain in queue such that after a smoker smokes hi
 Now to implement the above solution we will need to assume an Intermediator which will pass the signal based on the available Ingredients in pair i.e., if paper & match is available then it will pass a signal so that Smoker with 3rd Ingredient which is Tobacco in this case can pick up the ingredients and smoke them, similarly for other cases.
 
 So here we will be having 5 threads executing (3 types of smokers,1 Agent,1 Intermediator).
+The above solution is implemented in C++ language
 
