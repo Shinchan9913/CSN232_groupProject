@@ -1,9 +1,5 @@
 # Sleeping Barber Problem
 
-Problem statement and find that solution. 
-
-Source: Wikipedia
-
 ## Problem statement:
 
 The multiple-sleeping barber problem is a classical synchronization problem that 
