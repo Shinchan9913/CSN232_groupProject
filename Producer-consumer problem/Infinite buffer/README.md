@@ -17,8 +17,8 @@ The program creates 9 producer and 9 consumer threads using the createThread fun
 To compile and run the program, use the following commands:
 
 ```
-gcc -o infinite_buff infinite_buff.c -pthread
-./infinite_buff.out
+```gcc -o infinite_buff infinite_buff.c -pthread
+./infinite_buff.out```
 ```
 ## Conclusion
 The infinite buffer producer consumer problem is a classic synchronization problem that arises in multi-threaded programming. The solution presented in this program uses semaphores to ensure that the producer and consumer threads access the buffer in a mutually exclusive manner. The program creates multiple threads to simulate a real-world scenario, where multiple producers and consumers are working concurrently.
