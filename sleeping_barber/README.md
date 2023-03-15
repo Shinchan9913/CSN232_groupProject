@@ -41,6 +41,7 @@ The program defines two functions, barber and customer which represent the barbe
 and customer threads 
 
 ***********barber function************
+
 The barber function takes a pointer to an integer argument representing the barber ID. 
 The function enters an infinite loop and locks the mutex mtx. It then waits on the 
 conditional variable cuscondition while the waitroom queue is empty. When the queue 
@@ -48,6 +49,7 @@ is not empty, the barber pops the first customer ID from the waitroom queue,
 decrements the waitcustomer count, and releases the mutex.
 
 ********customer function*************
+
 The customer function takes a pointer to an integer argument representing the 
 customer ID. The function locks the mutex mtx and checks if the waiting room is full, 
 the function prints a message that the customer is leaving and exits the function. 
