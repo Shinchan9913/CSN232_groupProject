@@ -1,8 +1,4 @@
-# CSN-232 GROUP PROJECT
-Cigarette Smoker Problem
-Solved by:Jayesh Vyas(21114044)
-
-
+# Cigarette Smoker Problem
 
 ## PROBLEM STATEMENT:
 
