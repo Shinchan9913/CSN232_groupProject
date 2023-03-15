@@ -1,10 +1,10 @@
-CSN-232 GROUP PROJECT
+# CSN-232 GROUP PROJECT
 Cigarette Smoker Problem
 Solved by:Jayesh Vyas(21114044)
 
 
 
-PROBLEM STATEMENT:
+## PROBLEM STATEMENT:
 
 Suppose a cigarette requires three ingredients, tobacco, paper and match. There are N number of chain smokers. 
 They are of 3 types. Each has only one ingredient in infinite supply.
@@ -15,7 +15,7 @@ Once the ingredients are taken from the table, the agent supplies another two. O
 Once it is notified, the smoker picks up the ingredients, makes a cigarette, smokes for a while, and goes back to the table waiting for his next ingredients.
 
 
-SOLUTION:
+## SOLUTION:
 
 From the above problem statement, we came to find out that every smoker has to wait for other 2 ingredients to smoke.
 
