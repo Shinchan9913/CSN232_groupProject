@@ -1,6 +1,6 @@
 # Group Project for Implementation of Classical Synchronization Problems in Operating Systems using POSIX Threads (pthreads)
 
-## Contributers:
+## Contributors:
 + Sarish Vikrant Nilakhe (21114094)
 + Ayushka Sahu (21114024)
 + Jayesh Vyas (21114044)
