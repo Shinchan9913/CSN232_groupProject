@@ -1,4 +1,4 @@
-#PROBLEM STATEMENT:
+PROBLEM STATEMENT:
 
 Let us consider a case where multiple processes and a printer are present.
  Here all these processes are needed to print a document each. 
